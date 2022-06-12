@@ -33,7 +33,7 @@ const Cart = () => {
   }
 
   return (
-    <div classname="cart-wrapper" ref={cartRef}>
+    <div className="cart-wrapper" ref={cartRef}>
       <div className="cart-container">
         <button type="button" className="cart-heading" onClick={() => setShowCart(false)}>
           <AiOutlineLeft />
